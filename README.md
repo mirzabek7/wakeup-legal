@@ -4,18 +4,20 @@ Privacy Policy and Terms of Use for the WakeUp iOS app, published as a static si
 GitHub Pages. Kept in its own repository because GitHub Pages needs a **public** repo on the free
 plan, while the app's source stays private.
 
-## Before publishing — fill in the placeholders
+## Filled in
 
-Three things are marked in pink in the pages and must be replaced. Search all three files for
-the square brackets:
+Publisher is **Mirzabek Sadullaev**, contact **mirzabeksmrm77@gmail.com**. Nothing is left
+blank — the pages can go up as they are.
 
-| Placeholder | What to put there |
-|---|---|
-| `[DEVELOPER LEGAL NAME]` | The name that appears as the seller on the App Store — a person or a company |
-| `[SUPPORT EMAIL]` | An address you will actually read. Do not use a personal address you would rather keep private; the pages are public |
-| `[COUNTRY / JURISDICTION]` | The country whose law governs the terms — normally where you or the company are based |
+Note that the contact address is public on these pages, which is normal for an app's support
+address but worth knowing.
 
-They appear in `index.html`, `privacy.html` and `terms.html`.
+### No governing-law clause
+
+The terms deliberately do not name a country whose law applies. Leaving it out is a valid
+choice: for consumer contracts a court usually applies the buyer's own national law regardless
+of what the terms say, so the clause rarely changes the outcome for a small app. It can be added
+later if a lawyer advises it.
 
 ## Publishing on GitHub Pages
 

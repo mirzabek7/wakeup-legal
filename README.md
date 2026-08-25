@@ -1,6 +1,6 @@
-# WakeUp — legal pages
+# Ryzup — legal pages
 
-Privacy Policy and Terms of Use for the WakeUp iOS app, published as a static site through
+Privacy Policy and Terms of Use for the Ryzup iOS app, published as a static site through
 GitHub Pages. Kept in its own repository because GitHub Pages needs a **public** repo on the free
 plan, while the app's source stays private.
 

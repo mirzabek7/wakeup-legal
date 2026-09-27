@@ -4,67 +4,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy Policy — Ryzup</title>
-<style>
-  :root {
-    --bg: #ffffff;
-    --surface: #f7f5fb;
-    --text: #1e1b2e;
-    --muted: #5f5a72;
-    --line: #e6e2f0;
-    --accent: #ff7a93;
-    --accent2: #a56eff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #14121c;
-      --surface: #1d1a28;
-      --text: #f2f0f7;
-      --muted: #a9a3bd;
-      --line: #2c2839;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 0 20px 80px;
-    background: var(--bg);
-    color: var(--text);
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 720px; margin: 0 auto; }
-  header { padding: 56px 0 12px; }
-  .eyebrow {
-    font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-    background: linear-gradient(90deg, var(--accent), var(--accent2));
-    -webkit-background-clip: text; background-clip: text; color: transparent;
-  }
-  h1 { font-size: 34px; line-height: 1.2; margin: 10px 0 6px; letter-spacing: -.02em; }
-  .date { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
-  h2 { font-size: 20px; margin: 38px 0 10px; letter-spacing: -.01em; }
-  h3 { font-size: 16px; margin: 24px 0 6px; }
-  p, li { color: var(--text); }
-  ul { padding-left: 20px; }
-  li { margin: 6px 0; }
-  a { color: var(--accent2); }
-  .summary {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-radius: 16px;
-    padding: 20px 22px;
-    margin: 24px 0 8px;
-  }
-  .summary h2 { margin-top: 0; }
-  footer {
-    margin-top: 56px; padding-top: 20px;
-    border-top: 1px solid var(--line);
-    color: var(--muted); font-size: 14px;
-  }
-  footer a { margin-right: 16px; }
-</style>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="alternate" hreflang="x-default" href="privacy.html">
+<link rel="alternate" hreflang="en" href="privacy.html?lang=en">
+<link rel="alternate" hreflang="ru" href="privacy.html?lang=ru">
+<link rel="alternate" hreflang="es" href="privacy.html?lang=es">
+<link rel="alternate" hreflang="de" href="privacy.html?lang=de">
+<link rel="alternate" hreflang="fr" href="privacy.html?lang=fr">
+<link rel="alternate" hreflang="pt" href="privacy.html?lang=pt">
+<link rel="alternate" hreflang="ja" href="privacy.html?lang=ja">
+<script>document.documentElement.className += ' js';</script>
 </head>
 <body>
 <div class="wrap">
+
+<div class="langbar">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+    <circle cx="12" cy="12" r="9.2"/>
+    <path d="M2.8 12h18.4M12 2.8c2.6 2.6 3.9 5.7 3.9 9.2s-1.3 6.6-3.9 9.2c-2.6-2.6-3.9-5.7-3.9-9.2S9.4 5.4 12 2.8z"/>
+  </svg>
+  <select id="langpick" aria-label="Language / Язык / Sprache">
+    <option value="en">English</option>
+    <option value="ru">Русский</option>
+    <option value="es">Español</option>
+    <option value="de">Deutsch</option>
+    <option value="fr">Français</option>
+    <option value="pt">Português</option>
+    <option value="ja">日本語</option>
+  </select>
+</div>
+
+<!-- ENGLISH -->
+<section class="i18n" lang="en" data-title="Privacy Policy — Ryzup">
 
 <header>
   <div class="eyebrow">Ryzup</div>
@@ -190,6 +161,813 @@ Continuing to use the app after a change means you accept the updated policy.</p
   <a href="terms.html">Terms of Use</a>
 </footer>
 
+</section>
+
+<!-- РУССКИЙ -->
+<section class="i18n" lang="ru" data-title="Политика конфиденциальности — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Политика конфиденциальности</h1>
+  <p class="date">Последнее обновление: 25 августа 2026 г.</p>
+</header>
+
+<div class="summary">
+  <h2>Коротко</h2>
+  <p>В Ryzup нет аккаунтов. Мы никогда не спрашиваем ваше имя, адрес электронной почты или номер
+  телефона, и у нас нет сервера, на котором хранились бы ваши данные.</p>
+  <ul>
+    <li>Ваши будильники, статистика и серия дней хранятся на вашем устройстве.</li>
+    <li>Камера, которую используют фитнес-задания, работает полностью на вашем телефоне. Ни одна
+    фотография и ни одно видео никогда не сохраняются и никуда не отправляются.</li>
+    <li>Мы получаем анонимную статистику использования и отчёты о сбоях, чтобы исправлять то, что
+    не работает.</li>
+    <li>Мы не показываем рекламу и не продаём данные. Продавать нечего.</li>
+  </ul>
+</div>
+
+<h2>1. От кого эта политика</h2>
+<p>Эта политика относится к приложению для iOS <strong>Ryzup</strong>, издатель —
+Мирзабек Садуллаев («мы», «нас»). Если у вас есть вопросы,
+напишите на <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</p>
+
+<h2>2. Информация, которая хранится на вашем устройстве</h2>
+<p>Ваши будильники, история пробуждений, серия дней и настройки приложения хранятся локально на
+вашем iPhone в базе данных Apple на самом устройстве. Мы ничего из этого не видим.</p>
+<p>Удаление приложения удаляет эти данные с вашего устройства.</p>
+
+<h3>Синхронизация с iCloud</h3>
+<p>Если вы вошли в iCloud, эти данные могут также синхронизироваться с вашей личной учётной
+записью iCloud, чтобы перейти вместе с вами на новое устройство. Эту синхронизацию выполняет
+Apple, данные хранятся в вашем личном контейнере iCloud и подчиняются
+<a href="https://www.apple.com/legal/privacy/">Политике конфиденциальности Apple</a>. У нас нет к
+ним доступа, и мы не можем их прочитать. Отключение iCloud в настройках iOS прекращает
+синхронизацию; приложение продолжает работать локально.</p>
+
+<h2>3. Камера</h2>
+<p>Фитнес-задания (отжимания, скручивания, приседания, прыжки «звёздочка») используют фронтальную
+камеру, чтобы считать повторения.</p>
+<p>Это работает полностью на вашем устройстве с помощью встроенного фреймворка Apple Vision.
+А именно:</p>
+<ul>
+  <li>Ни одно изображение, фото или видео не записывается в память устройства.</li>
+  <li>Данные изображения никогда не покидают ваш телефон.</li>
+  <li>Камера работает только пока фитнес-задание открыто на экране, и останавливается в тот момент,
+  когда вы выходите из него или приложение уходит в фон.</li>
+  <li>Мы получаем только итоговое число повторений — никогда не кадры, из которых оно получено.</li>
+</ul>
+<p>Вы можете не давать доступ к камере. Тогда задание позволит считать повторения касаниями
+экрана, и будильник всё равно можно будет выключить.</p>
+
+<h2>4. Датчики движения</h2>
+<p>Задания «Встряхнуть» и «Пройтись» читают акселерометр и счётчик шагов, чтобы подтвердить, что вы
+двигаетесь. Это происходит на устройстве, нигде не записывается и не передаётся.</p>
+
+<h2>5. Аналитика и отчёты о сбоях</h2>
+<p>Мы используем Google Firebase Analytics и Firebase Crashlytics, чтобы понимать, работает ли
+приложение в реальных условиях — прежде всего, звонят ли будильники вовремя, ведь это единственное,
+что приложение-будильник обязано делать безупречно.</p>
+<p>Что собирается:</p>
+<ul>
+  <li>Анонимные события использования: например, какой тип задания был запущен и был ли будильник
+  доставлен с опозданием.</li>
+  <li>Модель устройства, версия операционной системы, язык и регион.</li>
+  <li>Анонимный идентификатор установки приложения, создаваемый Firebase.</li>
+  <li>Отчёты о сбоях, включая техническое состояние приложения в момент сбоя.</li>
+</ul>
+<p>Эта информация не связана с вашей личностью, потому что мы её не знаем. Firebase обрабатывает её
+так, как описано в
+<a href="https://firebase.google.com/support/privacy">документации Firebase о конфиденциальности</a>.</p>
+<p>Вы можете ограничить это в iOS: <em>Настройки → Конфиденциальность и безопасность → Аналитика и
+улучшения</em>, а также отключив «Разрешать приложениям запрашивать отслеживание».</p>
+
+<h2>6. Покупки</h2>
+<p>Подписки продаёт и обрабатывает Apple. Мы никогда не видим ваши платёжные данные.</p>
+<p>Мы используем RevenueCat, чтобы проверять, активна ли подписка в настоящий момент. RevenueCat
+получает анонимный идентификатор и статус покупки — не ваше имя, адрес электронной почты или данные
+карты. См. <a href="https://www.revenuecat.com/privacy/">политику конфиденциальности RevenueCat</a>.</p>
+
+<h2>7. Уведомления</h2>
+<p>Приложение планирует локальные уведомления на вашем устройстве для будильников и, если вы это
+включите, для напоминаний о времени сна. Их создаёт и доставляет iOS на вашем телефоне. Мы не
+отправляем push-уведомления и не имеем такой возможности.</p>
+
+<h2>8. Чего мы не делаем</h2>
+<ul>
+  <li>Мы не требуем аккаунт и не собираем ваше имя, адрес электронной почты или номер телефона.</li>
+  <li>Мы не показываем рекламу.</li>
+  <li>Мы не продаём, не сдаём в аренду и не передаём никакую информацию.</li>
+  <li>Мы не отслеживаем вас в других приложениях и на сайтах.</li>
+  <li>Мы не собираем данные о местоположении.</li>
+  <li>Мы не собираем данные о здоровье и физической активности.</li>
+</ul>
+
+<h2>9. Дети</h2>
+<p>Ryzup не предназначено для детей младше 13 лет, и мы осознанно не собираем информацию о них.
+Поскольку в приложении нет аккаунта и оно не собирает персональных данных, в нём нет ничего, что
+могло бы идентифицировать ребёнка.</p>
+
+<h2>10. Ваши права</h2>
+<p>В зависимости от того, где вы живёте, у вас могут быть права на доступ к персональным данным о
+вас, их исправление или удаление. На практике мы не храним персональных данных, которые могли бы
+вас идентифицировать: всё идентифицирующее остаётся на вашем устройстве или в вашей собственной
+учётной записи iCloud.</p>
+<ul>
+  <li><strong>Чтобы удалить всё, что у нас теоретически может быть:</strong> удалите приложение.
+  Локальные данные удалятся вместе с ним. Копии в iCloud можно удалить в
+  <em>Настройки → Apple ID → iCloud → Управление хранилищем</em>.</li>
+  <li><strong>Чтобы отключить аналитику:</strong> используйте настройки iOS, описанные в разделе 5.</li>
+  <li><strong>Чтобы спросить нас о чём угодно:</strong> напишите на
+  <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</li>
+</ul>
+
+<h2>11. Изменения в этой политике</h2>
+<p>Если мы изменим то, как приложение обращается с данными, мы обновим эту страницу и изменим дату
+вверху. Продолжение использования приложения после изменения означает, что вы принимаете
+обновлённую политику.</p>
+
+<h2>12. Контакты</h2>
+<p>Мирзабек Садуллаев<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Главная</a>
+  <a href="terms.html">Условия использования</a>
+</footer>
+
+</section>
+
+<!-- ESPAÑOL -->
+<section class="i18n" lang="es" data-title="Política de Privacidad — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Política de Privacidad</h1>
+  <p class="date">Última actualización: 25 de agosto de 2026</p>
+</header>
+
+<div class="summary">
+  <h2>La versión corta</h2>
+  <p>Ryzup no tiene cuentas. Nunca te pedimos tu nombre, correo electrónico ni número de teléfono,
+  y no tenemos ningún servidor que guarde tus datos.</p>
+  <ul>
+    <li>Tus alarmas, estadísticas y racha se quedan en tu dispositivo.</li>
+    <li>La cámara que usan las misiones de ejercicio funciona por completo en tu teléfono. Ninguna
+    foto o vídeo se guarda ni se envía a ningún sitio.</li>
+    <li>Recibimos estadísticas de uso y de errores anónimas para poder arreglar lo que falla.</li>
+    <li>No mostramos anuncios y no vendemos datos. No hay nada que vender.</li>
+  </ul>
+</div>
+
+<h2>1. Quién publica esta política</h2>
+<p>Esta política cubre la app para iOS <strong>Ryzup</strong>, publicada por
+Mirzabek Sadullaev («nosotros»). Si tienes preguntas,
+escribe a <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</p>
+
+<h2>2. Información guardada en tu dispositivo</h2>
+<p>Tus alarmas, tu historial de despertares, tu racha y los ajustes de la app se guardan localmente
+en tu iPhone usando la base de datos en el dispositivo de Apple. No podemos ver nada de eso.</p>
+<p>Al eliminar la app, estos datos desaparecen de tu dispositivo.</p>
+
+<h3>Sincronización con iCloud</h3>
+<p>Si has iniciado sesión en iCloud, estos datos también pueden sincronizarse con tu propia cuenta
+privada de iCloud para acompañarte a un dispositivo nuevo. Esa sincronización la realiza Apple, se
+almacena en tu contenedor personal de iCloud y se rige por la
+<a href="https://www.apple.com/legal/privacy/">Política de Privacidad de Apple</a>. No tenemos
+acceso a ella ni podemos leerla. Desactivar iCloud en los Ajustes de iOS detiene la sincronización;
+la app sigue funcionando localmente.</p>
+
+<h2>3. Cámara</h2>
+<p>Las misiones de ejercicio (flexiones, abdominales, sentadillas, saltos de tijera) usan la cámara
+frontal para contar tus repeticiones.</p>
+<p>Esto funciona completamente en tu dispositivo mediante el framework Vision de Apple, que se
+ejecuta en local. Concretamente:</p>
+<ul>
+  <li>No se guarda ninguna imagen, foto ni vídeo en el almacenamiento.</li>
+  <li>Ningún dato de imagen sale nunca de tu teléfono.</li>
+  <li>La cámara funciona solo mientras una misión de ejercicio está en pantalla, y se detiene en el
+  momento en que sales de ella o la app pasa a segundo plano.</li>
+  <li>Solo recibimos el número resultante de repeticiones, nunca las imágenes de las que proviene.</li>
+</ul>
+<p>Puedes denegar el acceso a la cámara. En ese caso la misión te permite contar las repeticiones
+tocando la pantalla, y la alarma se puede apagar igualmente.</p>
+
+<h2>4. Sensores de movimiento</h2>
+<p>Las misiones Agitar y Caminar leen el acelerómetro y el contador de pasos para confirmar que te
+estás moviendo. Esto ocurre en el dispositivo y no se registra ni se transmite.</p>
+
+<h2>5. Analítica e informes de errores</h2>
+<p>Usamos Google Firebase Analytics y Firebase Crashlytics para saber si la app funciona en el mundo
+real, y sobre todo si las alarmas suenan realmente a su hora, que es lo único que una app de alarmas
+tiene que hacer bien.</p>
+<p>Qué se recopila:</p>
+<ul>
+  <li>Eventos de uso anónimos, como qué tipo de misión se inició y si una alarma llegó con retraso.</li>
+  <li>Modelo del dispositivo, versión del sistema operativo, idioma y región.</li>
+  <li>Un identificador anónimo de instalación de la app generado por Firebase.</li>
+  <li>Informes de errores, incluido el estado técnico de la app en el momento del fallo.</li>
+</ul>
+<p>Esta información no está vinculada a tu identidad, porque no la conocemos. Firebase la procesa
+tal como se describe en su
+<a href="https://firebase.google.com/support/privacy">documentación de privacidad</a>.</p>
+<p>Puedes limitarlo en iOS: <em>Ajustes → Privacidad y seguridad → Análisis y mejoras</em>, y
+desactivando «Permitir solicitudes de las apps para rastrear».</p>
+
+<h2>6. Compras</h2>
+<p>Las suscripciones las vende y procesa Apple. Nunca vemos tus datos de pago.</p>
+<p>Usamos RevenueCat para comprobar si una suscripción está activa en este momento. RevenueCat
+recibe un identificador anónimo y el estado de tu compra, no tu nombre, correo electrónico ni
+tarjeta. Consulta la
+<a href="https://www.revenuecat.com/privacy/">política de privacidad de RevenueCat</a>.</p>
+
+<h2>7. Notificaciones</h2>
+<p>La app programa notificaciones locales en tu dispositivo para las alarmas y, si lo activas, para
+los recordatorios de hora de dormir. Las crea y las entrega iOS en tu teléfono. No enviamos mensajes
+push ni tenemos capacidad de hacerlo.</p>
+
+<h2>8. Lo que no hacemos</h2>
+<ul>
+  <li>No exigimos una cuenta ni recogemos tu nombre, correo electrónico o número de teléfono.</li>
+  <li>No mostramos publicidad.</li>
+  <li>No vendemos, alquilamos ni intercambiamos ninguna información.</li>
+  <li>No te rastreamos en otras apps o sitios web.</li>
+  <li>No recogemos datos de ubicación.</li>
+  <li>No recogemos datos de salud o actividad física.</li>
+</ul>
+
+<h2>9. Menores</h2>
+<p>Ryzup no está dirigida a menores de 13 años y no recogemos conscientemente información sobre
+ellos. Dado que la app no tiene cuenta y no recoge datos personales, no contiene nada que pudiera
+identificar a un menor.</p>
+
+<h2>10. Tus derechos</h2>
+<p>Según dónde vivas, puedes tener derecho a acceder, corregir o eliminar los datos personales que
+se tengan sobre ti. En la práctica no conservamos datos personales que puedan identificarte: todo lo
+que identifica se queda en tu dispositivo o en tu propia cuenta de iCloud.</p>
+<ul>
+  <li><strong>Para borrar todo lo que podríamos tener:</strong> elimina la app. Los datos locales se
+  van con ella. Las copias en iCloud se pueden eliminar en
+  <em>Ajustes → Apple ID → iCloud → Gestionar almacenamiento</em>.</li>
+  <li><strong>Para detener la analítica:</strong> usa los ajustes de iOS descritos en la sección 5.</li>
+  <li><strong>Para preguntarnos cualquier cosa:</strong> escribe a
+  <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</li>
+</ul>
+
+<h2>11. Cambios en esta política</h2>
+<p>Si cambiamos la manera en que la app trata los datos, actualizaremos esta página y cambiaremos la
+fecha de arriba. Seguir usando la app después de un cambio significa que aceptas la política
+actualizada.</p>
+
+<h2>12. Contacto</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Inicio</a>
+  <a href="terms.html">Términos de Uso</a>
+</footer>
+
+</section>
+
+<!-- DEUTSCH -->
+<section class="i18n" lang="de" data-title="Datenschutzerklärung — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Datenschutzerklärung</h1>
+  <p class="date">Letzte Aktualisierung: 25. August 2026</p>
+</header>
+
+<div class="summary">
+  <h2>Die Kurzfassung</h2>
+  <p>Ryzup hat keine Benutzerkonten. Wir fragen niemals nach deinem Namen, deiner E-Mail-Adresse
+  oder deiner Telefonnummer, und wir haben keinen Server, auf dem deine Daten liegen.</p>
+  <ul>
+    <li>Deine Wecker, Statistiken und deine Serie bleiben auf deinem Gerät.</li>
+    <li>Die Kamera, die die Fitness-Aufgaben nutzen, läuft vollständig auf deinem Telefon. Kein
+    Foto und kein Video wird jemals gespeichert oder irgendwohin gesendet.</li>
+    <li>Wir erhalten anonyme Nutzungs- und Absturzstatistiken, damit wir reparieren können, was
+    kaputt ist.</li>
+    <li>Wir zeigen keine Werbung und verkaufen keine Daten. Es gibt nichts zu verkaufen.</li>
+  </ul>
+</div>
+
+<h2>1. Von wem diese Erklärung stammt</h2>
+<p>Diese Erklärung gilt für die iOS-App <strong>Ryzup</strong>, herausgegeben von
+Mirzabek Sadullaev („wir“, „uns“). Bei Fragen schreibe an
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</p>
+
+<h2>2. Auf deinem Gerät gespeicherte Informationen</h2>
+<p>Deine Wecker, dein Aufwach-Verlauf, deine Serie und die App-Einstellungen werden lokal auf deinem
+iPhone in Apples Datenbank auf dem Gerät gespeichert. Wir können nichts davon sehen.</p>
+<p>Wenn du die App löschst, verschwinden diese Daten von deinem Gerät.</p>
+
+<h3>iCloud-Synchronisierung</h3>
+<p>Wenn du bei iCloud angemeldet bist, können diese Daten auch mit deinem eigenen privaten
+iCloud-Konto synchronisiert werden, damit sie dir auf ein neues Gerät folgen. Diese
+Synchronisierung wird von Apple betrieben, in deinem persönlichen iCloud-Container gespeichert und
+unterliegt der <a href="https://www.apple.com/legal/privacy/">Datenschutzerklärung von Apple</a>.
+Wir haben keinen Zugriff darauf und können sie nicht lesen. Wenn du iCloud in den
+iOS-Einstellungen ausschaltest, endet die Synchronisierung; die App funktioniert lokal weiter.</p>
+
+<h2>3. Kamera</h2>
+<p>Die Fitness-Aufgaben (Push-ups, Sit-ups, Kniebeugen, Hampelmänner) nutzen die Frontkamera, um
+deine Wiederholungen zu zählen.</p>
+<p>Das läuft vollständig auf deinem Gerät mit Apples Vision-Framework, das lokal arbeitet. Konkret:</p>
+<ul>
+  <li>Es wird kein Bild, Foto oder Video in den Speicher geschrieben.</li>
+  <li>Es verlassen niemals Bilddaten dein Telefon.</li>
+  <li>Die Kamera läuft nur, solange eine Fitness-Aufgabe auf dem Bildschirm ist, und stoppt in dem
+  Moment, in dem du sie verlässt oder die App in den Hintergrund geht.</li>
+  <li>Wir erhalten nur die resultierende Anzahl — niemals die Bilder, aus denen sie stammt.</li>
+</ul>
+<p>Du kannst den Kamerazugriff verweigern. Die Aufgabe lässt dich dann deine Wiederholungen durch
+Tippen zählen, und der Wecker kann trotzdem ausgeschaltet werden.</p>
+
+<h2>4. Bewegungssensoren</h2>
+<p>Die Aufgaben Schütteln und Gehen lesen den Beschleunigungssensor und den Schrittzähler, um zu
+bestätigen, dass du dich bewegst. Das passiert auf dem Gerät und wird nicht aufgezeichnet oder
+übertragen.</p>
+
+<h2>5. Analyse und Absturzberichte</h2>
+<p>Wir nutzen Google Firebase Analytics und Firebase Crashlytics, um zu verstehen, ob die App in der
+realen Welt funktioniert — insbesondere, ob Wecker tatsächlich pünktlich klingeln, denn das ist das
+Einzige, was eine Wecker-App richtig machen muss.</p>
+<p>Was erhoben wird:</p>
+<ul>
+  <li>Anonyme Nutzungsereignisse, etwa welcher Aufgabentyp gestartet wurde und ob ein Wecker
+  verspätet ausgelöst wurde.</li>
+  <li>Gerätemodell, Betriebssystemversion, Sprache und Region.</li>
+  <li>Eine anonyme, von Firebase erzeugte Installations-Kennung der App.</li>
+  <li>Absturzberichte, einschließlich des technischen Zustands der App im Moment des Absturzes.</li>
+</ul>
+<p>Diese Informationen sind nicht mit deiner Identität verknüpft, weil wir sie nicht kennen.
+Firebase verarbeitet sie wie in der
+<a href="https://firebase.google.com/support/privacy">Datenschutzdokumentation von Firebase</a>
+beschrieben.</p>
+<p>Du kannst das in iOS einschränken: <em>Einstellungen → Datenschutz &amp; Sicherheit → Analyse
+&amp; Verbesserungen</em>, und indem du „Apps erlauben, Tracking anzufordern“ ausschaltest.</p>
+
+<h2>6. Käufe</h2>
+<p>Abonnements werden von Apple verkauft und abgewickelt. Wir sehen deine Zahlungsdaten nie.</p>
+<p>Wir nutzen RevenueCat, um zu prüfen, ob ein Abonnement gerade aktiv ist. RevenueCat erhält eine
+anonyme Kennung und deinen Kaufstatus — nicht deinen Namen, deine E-Mail-Adresse oder deine Karte.
+Siehe die <a href="https://www.revenuecat.com/privacy/">Datenschutzerklärung von RevenueCat</a>.</p>
+
+<h2>7. Benachrichtigungen</h2>
+<p>Die App plant lokale Benachrichtigungen auf deinem Gerät für Wecker und, wenn du es aktivierst,
+für Schlafenszeit-Erinnerungen. Diese werden von iOS auf deinem Telefon erstellt und ausgeliefert.
+Wir senden keine Push-Nachrichten und haben dazu auch keine Möglichkeit.</p>
+
+<h2>8. Was wir nicht tun</h2>
+<ul>
+  <li>Wir verlangen kein Konto und erheben nicht deinen Namen, deine E-Mail-Adresse oder deine
+  Telefonnummer.</li>
+  <li>Wir zeigen keine Werbung.</li>
+  <li>Wir verkaufen, vermieten oder tauschen keine Informationen.</li>
+  <li>Wir verfolgen dich nicht über andere Apps oder Websites.</li>
+  <li>Wir erheben keine Standortdaten.</li>
+  <li>Wir erheben keine Gesundheits- oder Fitnessdaten.</li>
+</ul>
+
+<h2>9. Kinder</h2>
+<p>Ryzup richtet sich nicht an Kinder unter 13 Jahren, und wir erheben nicht wissentlich
+Informationen von ihnen. Da die App kein Konto hat und keine persönlichen Angaben erhebt, enthält
+sie nichts, was ein Kind identifizieren könnte.</p>
+
+<h2>10. Deine Rechte</h2>
+<p>Je nachdem, wo du lebst, hast du möglicherweise das Recht, über dich gespeicherte
+personenbezogene Daten einzusehen, zu korrigieren oder löschen zu lassen. In der Praxis halten wir
+keine personenbezogenen Daten, die dich identifizieren könnten: alles Identifizierende bleibt auf
+deinem Gerät oder in deinem eigenen iCloud-Konto.</p>
+<ul>
+  <li><strong>Um alles zu löschen, was wir überhaupt haben könnten:</strong> lösche die App. Die
+  lokalen Daten gehen mit ihr. iCloud-Kopien lassen sich unter
+  <em>Einstellungen → Apple-ID → iCloud → Speicher verwalten</em> entfernen.</li>
+  <li><strong>Um die Analyse zu stoppen:</strong> nutze die in Abschnitt 5 beschriebenen
+  iOS-Einstellungen.</li>
+  <li><strong>Um uns etwas zu fragen:</strong> schreibe an
+  <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</li>
+</ul>
+
+<h2>11. Änderungen dieser Erklärung</h2>
+<p>Wenn wir ändern, wie die App mit Daten umgeht, aktualisieren wir diese Seite und ändern das Datum
+oben. Wenn du die App nach einer Änderung weiter nutzt, akzeptierst du die aktualisierte
+Erklärung.</p>
+
+<h2>12. Kontakt</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Startseite</a>
+  <a href="terms.html">Nutzungsbedingungen</a>
+</footer>
+
+</section>
+
+<!-- FRANÇAIS -->
+<section class="i18n" lang="fr" data-title="Politique de confidentialité — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Politique de confidentialité</h1>
+  <p class="date">Dernière mise à jour : 25 août 2026</p>
+</header>
+
+<div class="summary">
+  <h2>En bref</h2>
+  <p>Ryzup n'a pas de comptes. Nous ne vous demandons jamais votre nom, votre adresse e-mail ni
+  votre numéro de téléphone, et nous n'avons aucun serveur qui conserve vos données.</p>
+  <ul>
+    <li>Vos réveils, vos statistiques et votre série restent sur votre appareil.</li>
+    <li>La caméra utilisée par les missions sportives fonctionne entièrement sur votre téléphone.
+    Aucune photo ni vidéo n'est jamais enregistrée ou envoyée où que ce soit.</li>
+    <li>Nous recevons des statistiques d'utilisation et de plantage anonymes, afin de réparer ce qui
+    ne fonctionne pas.</li>
+    <li>Nous n'affichons pas de publicité et nous ne vendons pas de données. Il n'y a rien à
+    vendre.</li>
+  </ul>
+</div>
+
+<h2>1. Qui publie cette politique</h2>
+<p>Cette politique concerne l'application iOS <strong>Ryzup</strong>, éditée par
+Mirzabek Sadullaev (« nous »). Pour toute question, écrivez à
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</p>
+
+<h2>2. Informations stockées sur votre appareil</h2>
+<p>Vos réveils, votre historique de réveils, votre série et les réglages de l'application sont
+stockés localement sur votre iPhone, dans la base de données d'Apple présente sur l'appareil. Nous
+n'en voyons rien.</p>
+<p>Supprimer l'application efface ces données de votre appareil.</p>
+
+<h3>Synchronisation iCloud</h3>
+<p>Si vous êtes connecté à iCloud, ces données peuvent également être synchronisées avec votre
+propre compte iCloud privé, afin de vous suivre sur un nouvel appareil. Cette synchronisation est
+assurée par Apple, stockée dans votre conteneur iCloud personnel et régie par la
+<a href="https://www.apple.com/legal/privacy/">politique de confidentialité d'Apple</a>. Nous n'y
+avons pas accès et ne pouvons pas la lire. Désactiver iCloud dans les Réglages iOS arrête la
+synchronisation ; l'application continue de fonctionner en local.</p>
+
+<h2>3. Caméra</h2>
+<p>Les missions sportives (pompes, abdominaux, squats, jumping jacks) utilisent la caméra frontale
+pour compter vos répétitions.</p>
+<p>Cela fonctionne entièrement sur votre appareil, grâce au framework Vision d'Apple qui s'exécute
+en local. Concrètement :</p>
+<ul>
+  <li>Aucune image, photo ou vidéo n'est écrite dans le stockage.</li>
+  <li>Aucune donnée d'image ne quitte jamais votre téléphone.</li>
+  <li>La caméra ne fonctionne que pendant qu'une mission sportive est à l'écran, et s'arrête dès
+  que vous la quittez ou que l'application passe en arrière-plan.</li>
+  <li>Nous ne recevons que le nombre de répétitions obtenu, jamais les images dont il provient.</li>
+</ul>
+<p>Vous pouvez refuser l'accès à la caméra. La mission vous permet alors de compter vos répétitions
+en touchant l'écran, et le réveil peut malgré tout être arrêté.</p>
+
+<h2>4. Capteurs de mouvement</h2>
+<p>Les missions Secouer et Marcher lisent l'accéléromètre et le compteur de pas pour confirmer que
+vous bougez. Cela se passe sur l'appareil et n'est ni enregistré ni transmis.</p>
+
+<h2>5. Analyse et rapports de plantage</h2>
+<p>Nous utilisons Google Firebase Analytics et Firebase Crashlytics pour savoir si l'application
+fonctionne dans le monde réel — en particulier si les réveils sonnent bien à l'heure, ce qui est la
+seule chose qu'une application de réveil doit réussir.</p>
+<p>Ce qui est collecté :</p>
+<ul>
+  <li>Des événements d'utilisation anonymes, par exemple quel type de mission a été lancé et si un
+  réveil a été déclenché en retard.</li>
+  <li>Le modèle de l'appareil, la version du système d'exploitation, la langue et la région.</li>
+  <li>Un identifiant d'installation anonyme généré par Firebase.</li>
+  <li>Des rapports de plantage, dont l'état technique de l'application au moment du plantage.</li>
+</ul>
+<p>Ces informations ne sont pas liées à votre identité, puisque nous ne la connaissons pas. Firebase
+les traite comme décrit dans sa
+<a href="https://firebase.google.com/support/privacy">documentation sur la confidentialité</a>.</p>
+<p>Vous pouvez limiter cela dans iOS : <em>Réglages → Confidentialité et sécurité → Analyse et
+améliorations</em>, et en désactivant « Autoriser les apps à demander de vous suivre ».</p>
+
+<h2>6. Achats</h2>
+<p>Les abonnements sont vendus et traités par Apple. Nous ne voyons jamais vos informations de
+paiement.</p>
+<p>Nous utilisons RevenueCat pour vérifier si un abonnement est actuellement actif. RevenueCat
+reçoit un identifiant anonyme et l'état de votre achat — pas votre nom, votre e-mail ni votre carte.
+Voir la <a href="https://www.revenuecat.com/privacy/">politique de confidentialité de
+RevenueCat</a>.</p>
+
+<h2>7. Notifications</h2>
+<p>L'application programme des notifications locales sur votre appareil pour les réveils et, si vous
+l'activez, pour les rappels d'heure de coucher. Elles sont créées et délivrées par iOS sur votre
+téléphone. Nous n'envoyons pas de notifications push et n'en avons pas la possibilité.</p>
+
+<h2>8. Ce que nous ne faisons pas</h2>
+<ul>
+  <li>Nous n'exigeons pas de compte et ne collectons pas votre nom, votre adresse e-mail ni votre
+  numéro de téléphone.</li>
+  <li>Nous n'affichons pas de publicité.</li>
+  <li>Nous ne vendons, ne louons et n'échangeons aucune information.</li>
+  <li>Nous ne vous suivons pas sur d'autres applications ou sites web.</li>
+  <li>Nous ne collectons pas de données de localisation.</li>
+  <li>Nous ne collectons pas de données de santé ou de forme physique.</li>
+</ul>
+
+<h2>9. Enfants</h2>
+<p>Ryzup ne s'adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment
+d'informations les concernant. Comme l'application n'a pas de compte et ne recueille aucune donnée
+personnelle, elle ne contient rien qui permettrait d'identifier un enfant.</p>
+
+<h2>10. Vos droits</h2>
+<p>Selon votre lieu de résidence, vous pouvez avoir le droit d'accéder aux données personnelles
+détenues à votre sujet, de les corriger ou de les faire supprimer. En pratique, nous ne détenons
+aucune donnée personnelle susceptible de vous identifier : tout ce qui est identifiant reste sur
+votre appareil ou dans votre propre compte iCloud.</p>
+<ul>
+  <li><strong>Pour supprimer tout ce que nous pourrions éventuellement avoir :</strong> supprimez
+  l'application. Les données locales partent avec elle. Les copies iCloud peuvent être retirées dans
+  <em>Réglages → identifiant Apple → iCloud → Gérer le stockage</em>.</li>
+  <li><strong>Pour arrêter l'analyse :</strong> utilisez les réglages iOS décrits à la section 5.</li>
+  <li><strong>Pour nous poser une question :</strong> écrivez à
+  <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</li>
+</ul>
+
+<h2>11. Modifications de cette politique</h2>
+<p>Si nous changeons la manière dont l'application traite les données, nous mettrons cette page à
+jour et modifierons la date en haut. Continuer à utiliser l'application après une modification
+signifie que vous acceptez la politique mise à jour.</p>
+
+<h2>12. Contact</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Accueil</a>
+  <a href="terms.html">Conditions d'utilisation</a>
+</footer>
+
+</section>
+
+<!-- PORTUGUÊS -->
+<section class="i18n" lang="pt" data-title="Política de Privacidade — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Política de Privacidade</h1>
+  <p class="date">Última atualização: 25 de agosto de 2026</p>
+</header>
+
+<div class="summary">
+  <h2>A versão curta</h2>
+  <p>O Ryzup não tem contas. Nunca pedimos o seu nome, e-mail ou número de telefone, e não temos
+  nenhum servidor guardando os seus dados.</p>
+  <ul>
+    <li>Os seus despertadores, estatísticas e sequência ficam no seu dispositivo.</li>
+    <li>A câmera usada pelas missões de exercício funciona inteiramente no seu telefone. Nenhuma
+    foto ou vídeo é salvo ou enviado para qualquer lugar.</li>
+    <li>Recebemos estatísticas anônimas de uso e de falhas para podermos corrigir o que quebra.</li>
+    <li>Não exibimos anúncios e não vendemos dados. Não há nada para vender.</li>
+  </ul>
+</div>
+
+<h2>1. De quem é esta política</h2>
+<p>Esta política se aplica ao app para iOS <strong>Ryzup</strong>, publicado por
+Mirzabek Sadullaev ("nós"). Se tiver dúvidas, escreva para
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</p>
+
+<h2>2. Informações guardadas no seu dispositivo</h2>
+<p>Os seus despertadores, o histórico de despertares, a sequência e as configurações do app são
+guardados localmente no seu iPhone, usando o banco de dados da Apple no próprio dispositivo. Não
+conseguimos ver nada disso.</p>
+<p>Excluir o app remove esses dados do seu dispositivo.</p>
+
+<h3>Sincronização com o iCloud</h3>
+<p>Se você estiver conectado ao iCloud, esses dados também podem sincronizar com a sua própria conta
+privada do iCloud, para acompanhá-lo em um novo dispositivo. Essa sincronização é operada pela
+Apple, armazenada no seu contêiner pessoal do iCloud e regida pela
+<a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a>. Não temos
+acesso a ela e não podemos lê-la. Desativar o iCloud nos Ajustes do iOS interrompe a sincronização;
+o app continua funcionando localmente.</p>
+
+<h2>3. Câmera</h2>
+<p>As missões de exercício (flexões, abdominais, agachamentos, polichinelos) usam a câmera frontal
+para contar as suas repetições.</p>
+<p>Isso funciona completamente no seu dispositivo, usando o framework Vision da Apple, que roda
+localmente. Especificamente:</p>
+<ul>
+  <li>Nenhuma imagem, foto ou vídeo é gravado no armazenamento.</li>
+  <li>Nenhum dado de imagem sai do seu telefone, nunca.</li>
+  <li>A câmera funciona apenas enquanto uma missão de exercício está na tela, e para no instante em
+  que você sai dela ou o app vai para segundo plano.</li>
+  <li>Recebemos apenas a contagem resultante — nunca as imagens de onde ela veio.</li>
+</ul>
+<p>Você pode recusar o acesso à câmera. Nesse caso, a missão permite contar as repetições tocando na
+tela, e o despertador ainda pode ser desligado.</p>
+
+<h2>4. Sensores de movimento</h2>
+<p>As missões Agitar e Caminhar leem o acelerômetro e o contador de passos para confirmar que você
+está se movendo. Isso acontece no dispositivo e não é gravado nem transmitido.</p>
+
+<h2>5. Análises e relatórios de falhas</h2>
+<p>Usamos o Google Firebase Analytics e o Firebase Crashlytics para entender se o app funciona no
+mundo real — em especial se os despertadores realmente tocam na hora, que é a única coisa que um app
+de despertador precisa acertar.</p>
+<p>O que é coletado:</p>
+<ul>
+  <li>Eventos de uso anônimos, como qual tipo de missão foi iniciado e se um despertador foi
+  entregue com atraso.</li>
+  <li>Modelo do dispositivo, versão do sistema operacional, idioma e região.</li>
+  <li>Um identificador anônimo de instalação do app gerado pelo Firebase.</li>
+  <li>Relatórios de falhas, incluindo o estado técnico do app no momento da falha.</li>
+</ul>
+<p>Essas informações não estão ligadas à sua identidade, porque não a conhecemos. O Firebase as
+processa conforme descrito na sua
+<a href="https://firebase.google.com/support/privacy">documentação de privacidade</a>.</p>
+<p>Você pode limitar isso no iOS: <em>Ajustes → Privacidade e Segurança → Análises e Melhorias</em>,
+e desativando "Permitir que Apps Solicitem Rastreamento".</p>
+
+<h2>6. Compras</h2>
+<p>As assinaturas são vendidas e processadas pela Apple. Nunca vemos os seus dados de pagamento.</p>
+<p>Usamos o RevenueCat para verificar se uma assinatura está ativa no momento. O RevenueCat recebe
+um identificador anônimo e o status da sua compra — não o seu nome, e-mail ou cartão. Veja a
+<a href="https://www.revenuecat.com/privacy/">política de privacidade do RevenueCat</a>.</p>
+
+<h2>7. Notificações</h2>
+<p>O app agenda notificações locais no seu dispositivo para os despertadores e, se você ativar, para
+os lembretes de hora de dormir. Elas são criadas e entregues pelo iOS no seu telefone. Não enviamos
+mensagens push e não temos como fazê-lo.</p>
+
+<h2>8. O que não fazemos</h2>
+<ul>
+  <li>Não exigimos conta e não coletamos o seu nome, e-mail ou número de telefone.</li>
+  <li>Não exibimos publicidade.</li>
+  <li>Não vendemos, alugamos nem trocamos nenhuma informação.</li>
+  <li>Não rastreamos você em outros apps ou sites.</li>
+  <li>Não coletamos dados de localização.</li>
+  <li>Não coletamos dados de saúde ou de atividade física.</li>
+</ul>
+
+<h2>9. Crianças</h2>
+<p>O Ryzup não é direcionado a crianças com menos de 13 anos e não coletamos conscientemente
+informações delas. Como o app não tem conta e não coleta dados pessoais, ele não guarda nada que
+possa identificar uma criança.</p>
+
+<h2>10. Os seus direitos</h2>
+<p>Dependendo de onde você mora, você pode ter direito a acessar, corrigir ou excluir dados pessoais
+mantidos sobre você. Na prática, não mantemos dados pessoais que possam identificá-lo: tudo o que
+identifica fica no seu dispositivo ou na sua própria conta do iCloud.</p>
+<ul>
+  <li><strong>Para apagar tudo o que poderíamos ter:</strong> exclua o app. Os dados locais vão com
+  ele. Cópias no iCloud podem ser removidas em
+  <em>Ajustes → ID Apple → iCloud → Gerenciar Armazenamento</em>.</li>
+  <li><strong>Para interromper as análises:</strong> use os ajustes do iOS descritos na seção 5.</li>
+  <li><strong>Para nos perguntar qualquer coisa:</strong> escreva para
+  <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a>.</li>
+</ul>
+
+<h2>11. Alterações nesta política</h2>
+<p>Se mudarmos a forma como o app lida com dados, atualizaremos esta página e alteraremos a data no
+topo. Continuar a usar o app após uma alteração significa que você aceita a política atualizada.</p>
+
+<h2>12. Contato</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Início</a>
+  <a href="terms.html">Termos de Uso</a>
+</footer>
+
+</section>
+
+<!-- 日本語 -->
+<section class="i18n" lang="ja" data-title="プライバシーポリシー — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>プライバシーポリシー</h1>
+  <p class="date">最終更新日: 2026年8月25日</p>
+</header>
+
+<div class="summary">
+  <h2>要点</h2>
+  <p>Ryzup にアカウントはありません。お名前、メールアドレス、電話番号を尋ねることは一切なく、
+  お客様のデータを保管するサーバーも持っていません。</p>
+  <ul>
+    <li>アラーム、統計、連続記録はお使いの端末内に保存されます。</li>
+    <li>フィットネスミッションで使うカメラは、完全に端末内で動作します。写真や動画が保存されたり、
+    どこかに送信されることは決してありません。</li>
+    <li>不具合を修正するため、匿名の利用統計とクラッシュレポートを受け取ります。</li>
+    <li>広告は表示せず、データを販売することもありません。売るものが何もありません。</li>
+  </ul>
+</div>
+
+<h2>1. このポリシーの発行者</h2>
+<p>本ポリシーは、Mirzabek Sadullaev（以下「当方」）が提供する iOS アプリ
+<strong>Ryzup</strong> を対象とします。ご質問は
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a> までお送りください。</p>
+
+<h2>2. 端末内に保存される情報</h2>
+<p>アラーム、起床履歴、連続記録、アプリの設定は、Apple の端末内データベースを使って、お使いの
+iPhone にローカル保存されます。当方はその内容を一切見ることができません。</p>
+<p>アプリを削除すると、これらのデータも端末から消えます。</p>
+
+<h3>iCloud 同期</h3>
+<p>iCloud にサインインしている場合、これらのデータはお客様ご自身のプライベートな iCloud
+アカウントにも同期され、新しい端末へ引き継がれることがあります。この同期は Apple が運用し、
+お客様個人の iCloud コンテナに保存され、
+<a href="https://www.apple.com/legal/privacy/">Apple のプライバシーポリシー</a>
+が適用されます。当方はアクセスできず、読むこともできません。iOS の設定で iCloud
+をオフにすると同期は停止し、アプリはローカルで動作し続けます。</p>
+
+<h2>3. カメラ</h2>
+<p>フィットネスミッション（腕立て伏せ、腹筋、スクワット、ジャンピングジャック）は、回数を数えるために
+フロントカメラを使用します。</p>
+<p>これは Apple の端末内 Vision フレームワークを用いて、完全に端末上で処理されます。具体的には:</p>
+<ul>
+  <li>画像・写真・動画がストレージに書き込まれることはありません。</li>
+  <li>画像データが端末外に出ることは決してありません。</li>
+  <li>カメラはフィットネスミッションが画面に表示されている間だけ動作し、画面を離れた時点、または
+  アプリがバックグラウンドに移った時点で停止します。</li>
+  <li>当方が受け取るのは結果の回数のみで、その元となった映像を受け取ることはありません。</li>
+</ul>
+<p>カメラへのアクセスを拒否することもできます。その場合、ミッションは画面をタップして回数を数える
+方式に切り替わり、アラームも問題なく停止できます。</p>
+
+<h2>4. モーションセンサー</h2>
+<p>「シェイク」と「ウォーク」のミッションは、実際に動いていることを確認するために加速度センサーと
+歩数カウンターを読み取ります。これは端末内で行われ、記録も送信もされません。</p>
+
+<h2>5. 利用解析とクラッシュレポート</h2>
+<p>当方は Google Firebase Analytics と Firebase Crashlytics を使って、アプリが実際の環境で
+きちんと動作しているか、とくにアラームが時間どおりに鳴っているかを把握しています。これは
+アラームアプリが必ず正しく果たさなければならない唯一のことです。</p>
+<p>収集される内容:</p>
+<ul>
+  <li>匿名の利用イベント（どのミッション種別が開始されたか、アラームの通知が遅延したかなど）。</li>
+  <li>端末のモデル、OS のバージョン、言語、地域。</li>
+  <li>Firebase が生成する匿名のアプリインストール識別子。</li>
+  <li>クラッシュレポート（クラッシュ時のアプリの技術的な状態を含みます）。</li>
+</ul>
+<p>当方はお客様の身元を知らないため、これらの情報が身元と結び付けられることはありません。Firebase
+は <a href="https://firebase.google.com/support/privacy">Firebase のプライバシー関連ドキュメント</a>
+に記載のとおりこれらを処理します。</p>
+<p>iOS 側で制限できます: <em>設定 → プライバシーとセキュリティ → 解析と改善</em>、および
+「アプリからの追跡要求を許可」をオフにしてください。</p>
+
+<h2>6. 購入</h2>
+<p>サブスクリプションの販売と決済は Apple が行います。当方がお客様の支払い情報を見ることは
+ありません。</p>
+<p>当方は、サブスクリプションが現在有効かどうかを確認するために RevenueCat
+を利用しています。RevenueCat が受け取るのは匿名の識別子と購入状態のみで、お名前、メールアドレス、
+カード情報は受け取りません。
+<a href="https://www.revenuecat.com/privacy/">RevenueCat のプライバシーポリシー</a>をご覧ください。</p>
+
+<h2>7. 通知</h2>
+<p>アプリは、アラームと（有効にした場合は）就寝リマインダーのために、端末上でローカル通知を
+スケジュールします。これらはお使いの端末上で iOS が作成し配信します。当方はプッシュ通知を送信せず、
+送信する手段も持っていません。</p>
+
+<h2>8. 当方が行わないこと</h2>
+<ul>
+  <li>アカウントを要求せず、お名前、メールアドレス、電話番号を収集しません。</li>
+  <li>広告を表示しません。</li>
+  <li>いかなる情報も販売、貸与、交換しません。</li>
+  <li>他のアプリやウェブサイトをまたいで追跡しません。</li>
+  <li>位置情報を収集しません。</li>
+  <li>健康・フィットネスデータを収集しません。</li>
+</ul>
+
+<h2>9. お子様について</h2>
+<p>Ryzup は 13 歳未満のお子様を対象としておらず、お子様の情報を意図的に収集することはありません。
+アプリにはアカウントがなく個人情報も収集しないため、お子様を特定できるものは何も保持していません。</p>
+
+<h2>10. お客様の権利</h2>
+<p>お住まいの地域によっては、お客様に関する個人データへのアクセス、訂正、削除を求める権利が
+ある場合があります。実際のところ、当方はお客様を特定できる個人データを保持していません。特定に
+つながるものはすべて、お使いの端末またはお客様自身の iCloud アカウントに留まります。</p>
+<ul>
+  <li><strong>当方が持ち得るものをすべて消すには:</strong> アプリを削除してください。ローカルデータも
+  一緒に消えます。iCloud 上のコピーは
+  <em>設定 → Apple ID → iCloud → ストレージを管理</em> から削除できます。</li>
+  <li><strong>解析を止めるには:</strong> 第 5 項に記載した iOS の設定をご利用ください。</li>
+  <li><strong>何でもお尋ねになるには:</strong>
+  <a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a> までお書きください。</li>
+</ul>
+
+<h2>11. 本ポリシーの変更</h2>
+<p>アプリのデータの取り扱い方を変更した場合は、本ページを更新し、冒頭の日付を変更します。変更後も
+アプリを使い続けることは、更新後のポリシーに同意したことを意味します。</p>
+
+<h2>12. お問い合わせ</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">ホーム</a>
+  <a href="terms.html">利用規約</a>
+</footer>
+
+</section>
+
+<script src="assets/i18n.js"></script>
 </div>
 </body>
 </html>

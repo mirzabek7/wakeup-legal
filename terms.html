@@ -4,73 +4,38 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Terms of Use — Ryzup</title>
-<style>
-  :root {
-    --bg: #ffffff;
-    --surface: #f7f5fb;
-    --warn: #fff4f0;
-    --warnline: #ffd0c4;
-    --text: #1e1b2e;
-    --muted: #5f5a72;
-    --line: #e6e2f0;
-    --accent: #ff7a93;
-    --accent2: #a56eff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #14121c;
-      --surface: #1d1a28;
-      --warn: #2a1d1e;
-      --warnline: #4a2d2b;
-      --text: #f2f0f7;
-      --muted: #a9a3bd;
-      --line: #2c2839;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 0 20px 80px;
-    background: var(--bg);
-    color: var(--text);
-    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    -webkit-text-size-adjust: 100%;
-  }
-  .wrap { max-width: 720px; margin: 0 auto; }
-  header { padding: 56px 0 12px; }
-  .eyebrow {
-    font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-    background: linear-gradient(90deg, var(--accent), var(--accent2));
-    -webkit-background-clip: text; background-clip: text; color: transparent;
-  }
-  h1 { font-size: 34px; line-height: 1.2; margin: 10px 0 6px; letter-spacing: -.02em; }
-  .date { color: var(--muted); font-size: 14px; margin: 0 0 28px; }
-  h2 { font-size: 20px; margin: 38px 0 10px; letter-spacing: -.01em; }
-  h3 { font-size: 16px; margin: 24px 0 6px; }
-  ul { padding-left: 20px; }
-  li { margin: 6px 0; }
-  a { color: var(--accent2); }
-  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 15px; }
-  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
-  th { color: var(--muted); font-weight: 600; }
-  .callout {
-    background: var(--warn);
-    border: 1px solid var(--warnline);
-    border-radius: 16px;
-    padding: 20px 22px;
-    margin: 24px 0;
-  }
-  .callout h2 { margin-top: 0; }
-  footer {
-    margin-top: 56px; padding-top: 20px;
-    border-top: 1px solid var(--line);
-    color: var(--muted); font-size: 14px;
-  }
-  footer a { margin-right: 16px; }
-</style>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="alternate" hreflang="x-default" href="terms.html">
+<link rel="alternate" hreflang="en" href="terms.html?lang=en">
+<link rel="alternate" hreflang="ru" href="terms.html?lang=ru">
+<link rel="alternate" hreflang="es" href="terms.html?lang=es">
+<link rel="alternate" hreflang="de" href="terms.html?lang=de">
+<link rel="alternate" hreflang="fr" href="terms.html?lang=fr">
+<link rel="alternate" hreflang="pt" href="terms.html?lang=pt">
+<link rel="alternate" hreflang="ja" href="terms.html?lang=ja">
+<script>document.documentElement.className += ' js';</script>
 </head>
 <body>
 <div class="wrap">
+
+<div class="langbar">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+    <circle cx="12" cy="12" r="9.2"/>
+    <path d="M2.8 12h18.4M12 2.8c2.6 2.6 3.9 5.7 3.9 9.2s-1.3 6.6-3.9 9.2c-2.6-2.6-3.9-5.7-3.9-9.2S9.4 5.4 12 2.8z"/>
+  </svg>
+  <select id="langpick" aria-label="Language / Язык / Sprache">
+    <option value="en">English</option>
+    <option value="ru">Русский</option>
+    <option value="es">Español</option>
+    <option value="de">Deutsch</option>
+    <option value="fr">Français</option>
+    <option value="pt">Português</option>
+    <option value="ja">日本語</option>
+  </select>
+</div>
+
+<!-- ENGLISH -->
+<section class="i18n" lang="en" data-title="Terms of Use — Ryzup">
 
 <header>
   <div class="eyebrow">Ryzup</div>
@@ -190,6 +155,772 @@ death or personal injury caused by negligence.</p>
   <a href="privacy.html">Privacy Policy</a>
 </footer>
 
+</section>
+
+<!-- РУССКИЙ -->
+<section class="i18n" lang="ru" data-title="Условия использования — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Условия использования</h1>
+  <p class="date">Последнее обновление: 25 августа 2026 г.</p>
+</header>
+
+<h2>1. Соглашение</h2>
+<p>Эти условия регулируют использование вами приложения для iOS <strong>Ryzup</strong>,
+предоставляемого Мирзабеком Садуллаевым («мы», «нас»). Загружая или используя приложение, вы
+принимаете их. Если вы с ними не согласны, пожалуйста, не используйте приложение.</p>
+<p>Использование приложения также регулируется
+<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Стандартным
+лицензионным соглашением с конечным пользователем</a> компании Apple.</p>
+
+<h2>2. Что делает приложение</h2>
+<p>Ryzup — это будильник, который требует выполнить задание: решить задачу, подвигаться или сделать
+упражнение перед камерой, — прежде чем сигнал прекратится.</p>
+
+<div class="callout">
+  <h2>3. Не полагайтесь только на это приложение</h2>
+  <p>Это самый важный пункт здесь, поэтому он не спрятан в конце.</p>
+  <p>Ryzup планирует будильники средствами iOS. Прозвонит ли будильник фактически, зависит от вашего
+  устройства и программного обеспечения Apple: уровень заряда, свободная память, настройки режимов
+  «Фокусирование» и «Не беспокоить», обновления системы, принудительное закрытие приложения и ошибки
+  в самой iOS — всё это вне нашего контроля. Ни одно стороннее приложение-будильник не может
+  гарантировать срабатывание.</p>
+  <p><strong>Если пропущенное пробуждение будет иметь серьёзные последствия — самолёт, экзамен,
+  визит к врачу, рабочая смена, — поставьте второй будильник во встроенном приложении «Часы» или
+  используйте отдельный физический будильник.</strong></p>
+  <p>Мы не несём ответственности за последствия того, что будильник не прозвонил, прозвонил с
+  опозданием или был отключён.</p>
+</div>
+
+<div class="callout">
+  <h2>4. Занимайтесь безопасно</h2>
+  <p>Фитнес-задания предлагают выполнить отжимания, скручивания, приседания или прыжки
+  «звёздочка» — часто буквально через несколько секунд после пробуждения.</p>
+  <ul>
+    <li>Вы участвуете на свой собственный риск.</li>
+    <li>Если у вас есть травма, заболевание или вы беременны, посоветуйтесь с врачом, прежде чем
+    выбирать эти задания.</li>
+    <li>Немедленно прекратите, если почувствуете боль, головокружение или нехватку воздуха.</li>
+    <li>Убедитесь, что вокруг вас достаточно свободного места и устойчивая опора под ногами.</li>
+    <li>Приложение считает повторения. Оно не проверяет технику выполнения и не является тренером
+    или медицинским устройством.</li>
+  </ul>
+  <p>Из любого задания можно выйти, не завершив его, — см. раздел 6.</p>
+</div>
+
+<h2>5. Бесплатное использование и подписка</h2>
+<p>Работающий будильник и набор заданий бесплатны, без ограничения по времени и без рекламы.</p>
+<p>Подписка («PRO») открывает дополнительные задания, будильник «рассвет», сложный уровень, полную
+историю пробуждений с экспортом и напоминания о времени сна.</p>
+
+<table>
+  <tr><th>Тариф</th><th>Цена</th><th>Предложение</th></tr>
+  <tr><td>Годовой</td><td>24,99 US$ в год</td><td>7 дней бесплатно</td></tr>
+  <tr><td>Месячный</td><td>4,99 US$ в месяц</td><td>—</td></tr>
+</table>
+
+<p>Цены, показанные в приложении, действуют для вашей страны и могут отличаться от приведённых выше.
+Применяется цена, указанная в App Store на момент покупки.</p>
+
+<h3>Автоматическое продление</h3>
+<ul>
+  <li>Оплата списывается с вашего Apple ID при подтверждении покупки.</li>
+  <li>Подписка продлевается автоматически, если она не отменена не позднее чем за 24 часа до
+  окончания текущего периода.</li>
+  <li>Списание за продление происходит в течение 24 часов до окончания текущего периода по цене
+  выбранного вами тарифа.</li>
+  <li>Если вы воспользовались бесплатным пробным периодом, его неиспользованная часть аннулируется
+  при покупке подписки.</li>
+</ul>
+
+<h3>Управление и отмена</h3>
+<p>Управлять подпиской или отменить её можно в любой момент в <em>Настройки → ваше имя →
+Подписки</em> на вашем устройстве или на
+<a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>.
+Удаление приложения не отменяет подписку.</p>
+
+<h3>Возврат средств</h3>
+<p>Покупки обрабатывает Apple, поэтому возврат средств запрашивается у Apple на
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Мы не можем самостоятельно
+оформить возврат за покупки в App Store.</p>
+
+<h3>Восстановление покупки</h3>
+<p>Поскольку в приложении нет аккаунта, существующая подписка восстанавливается через ваш Apple ID
+кнопкой <strong>Восстановить покупки</strong> в настройках приложения.</p>
+
+<h2>6. Будильник всегда можно выключить</h2>
+<p>По замыслу ни покупка, ни отсутствующий датчик, ни неудачное распознавание не могут запереть вас
+с будильником, который невозможно остановить. Если задание не удаётся выполнить, приложение
+предлагает помощь и, после небольшой задержки, безусловный способ выключить будильник.</p>
+
+<h2>7. Допустимое использование</h2>
+<p>Вы соглашаетесь не подвергать приложение обратной разработке, не декомпилировать и не изменять
+его, не пытаться обойти оплату платных функций и не использовать приложение противоправным
+образом.</p>
+
+<h2>8. Изменения приложения и этих условий</h2>
+<p>Мы можем добавлять, изменять или удалять функции, а также обновлять эти условия. Существенные
+изменения отражаются датой вверху этой страницы. Продолжение использования приложения после
+изменения означает, что вы его принимаете.</p>
+
+<h2>9. Отказ от гарантий и ограничение ответственности</h2>
+<p>Приложение предоставляется «как есть» и «как доступно», без каких-либо гарантий, в максимальной
+степени, допустимой законом. Мы не гарантируем, что приложение будет работать без перерывов и
+ошибок и что будильники всегда будут доставлены.</p>
+<p>В максимальной степени, допустимой законом, наша совокупная ответственность, возникающая из
+вашего использования приложения, ограничена суммой, которую вы уплатили нам за него в течение
+двенадцати месяцев до предъявления требования.</p>
+<p>Ничто в этих условиях не ограничивает ответственность, которая не может быть ограничена по
+закону, включая ответственность за смерть или вред здоровью, причинённые небрежностью.</p>
+
+<h2>10. Контакты</h2>
+<p>Мирзабек Садуллаев<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Главная</a>
+  <a href="privacy.html">Политика конфиденциальности</a>
+</footer>
+
+</section>
+
+<!-- ESPAÑOL -->
+<section class="i18n" lang="es" data-title="Términos de Uso — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Términos de Uso</h1>
+  <p class="date">Última actualización: 25 de agosto de 2026</p>
+</header>
+
+<h2>1. Acuerdo</h2>
+<p>Estos términos rigen tu uso de la app para iOS <strong>Ryzup</strong>, proporcionada por
+Mirzabek Sadullaev («nosotros»). Al descargar o usar la app, los aceptas. Si no los aceptas, por
+favor no uses la app.</p>
+<p>Tu uso está además sujeto al
+<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Contrato de Licencia de
+Usuario Final estándar</a> de Apple.</p>
+
+<h2>2. Qué hace la app</h2>
+<p>Ryzup es un despertador que te exige completar una tarea —resolver un problema, moverte o hacer
+un ejercicio delante de la cámara— antes de que la alarma se detenga.</p>
+
+<div class="callout">
+  <h2>3. No confíes solo en esta app</h2>
+  <p>Esta es la condición más importante de todas, así que no está enterrada al final.</p>
+  <p>Ryzup programa las alarmas a través de iOS. Que una alarma suene realmente depende de tu
+  dispositivo y del software de Apple: el nivel de batería, el almacenamiento, los ajustes de
+  Concentración y No molestar, las actualizaciones del sistema, forzar el cierre de la app y los
+  propios errores de iOS están todos fuera de nuestro control. Ninguna app de alarmas de terceros
+  puede garantizar la entrega.</p>
+  <p><strong>Si no despertarte tuviera consecuencias graves —un vuelo, un examen, una cita médica,
+  un turno de trabajo— pon una segunda alarma con la app Reloj integrada en tu dispositivo o con un
+  despertador físico aparte.</strong></p>
+  <p>No somos responsables de nada que se derive de una alarma que no sonó, sonó tarde o fue
+  descartada.</p>
+</div>
+
+<div class="callout">
+  <h2>4. Haz ejercicio con seguridad</h2>
+  <p>Las misiones de ejercicio te piden hacer flexiones, abdominales, sentadillas o saltos de
+  tijera, a menudo a los pocos instantes de despertar.</p>
+  <ul>
+    <li>Participas por tu cuenta y riesgo.</li>
+    <li>Si tienes alguna lesión o afección médica, o estás embarazada, habla con un médico antes de
+    elegir estas misiones.</li>
+    <li>Detente de inmediato si sientes dolor, mareo o falta de aire.</li>
+    <li>Asegúrate de tener espacio despejado alrededor y un apoyo firme.</li>
+    <li>La app cuenta repeticiones. No comprueba tu técnica y no es un entrenador ni un dispositivo
+    médico.</li>
+  </ul>
+  <p>Se puede salir de cualquier misión sin completarla; consulta la sección 6.</p>
+</div>
+
+<h2>5. Uso gratuito y suscripción</h2>
+<p>Una alarma que funciona y un conjunto de misiones son gratis, sin límite de tiempo y sin
+publicidad.</p>
+<p>La suscripción («PRO») desbloquea misiones adicionales, la alarma de amanecer, el nivel de
+dificultad difícil, el historial completo de despertares con exportación y los recordatorios de hora
+de dormir.</p>
+
+<table>
+  <tr><th>Plan</th><th>Precio</th><th>Oferta</th></tr>
+  <tr><td>Anual</td><td>24,99 US$ al año</td><td>7 días de prueba gratis</td></tr>
+  <tr><td>Mensual</td><td>4,99 US$ al mes</td><td>—</td></tr>
+</table>
+
+<p>Los precios mostrados en la app corresponden a tu país y pueden diferir de las cifras anteriores.
+Se aplica el precio que figure en la App Store en el momento de la compra.</p>
+
+<h3>Renovación automática</h3>
+<ul>
+  <li>El pago se carga a tu Apple ID al confirmar la compra.</li>
+  <li>La suscripción se renueva automáticamente salvo que se cancele al menos 24 horas antes del
+  final del período en curso.</li>
+  <li>El cargo de renovación se realiza dentro de las 24 horas previas al final del período en
+  curso, a la tarifa del plan que hayas elegido.</li>
+  <li>Si usas la prueba gratuita, la parte no utilizada se pierde al comprar una suscripción.</li>
+</ul>
+
+<h3>Gestionar y cancelar</h3>
+<p>Puedes gestionarla o cancelarla en cualquier momento en <em>Ajustes → tu nombre →
+Suscripciones</em> en tu dispositivo, o en
+<a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>.
+Eliminar la app no cancela la suscripción.</p>
+
+<h3>Reembolsos</h3>
+<p>Las compras las gestiona Apple, así que los reembolsos se solicitan a Apple en
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. No podemos emitir
+reembolsos por compras de la App Store nosotros mismos.</p>
+
+<h3>Restaurar una compra</h3>
+<p>Como la app no tiene cuenta, una suscripción existente se restaura a través de tu Apple ID con
+<strong>Restaurar compras</strong> en los ajustes de la app.</p>
+
+<h2>6. Siempre puedes apagar la alarma</h2>
+<p>Por diseño, ninguna compra, sensor ausente o detección fallida puede dejarte atrapado con una
+alarma que no puedas parar. Si una misión no se puede completar, la app ofrece ayuda y, tras una
+breve espera, una forma incondicional de apagar la alarma.</p>
+
+<h2>7. Uso aceptable</h2>
+<p>Te comprometes a no aplicar ingeniería inversa, descompilar o modificar la app, a no intentar
+eludir el pago de las funciones de pago y a no usar la app de ninguna forma ilícita.</p>
+
+<h2>8. Cambios en la app y en estos términos</h2>
+<p>Podemos añadir, cambiar o retirar funciones, y podemos actualizar estos términos. Los cambios
+importantes se reflejarán en la fecha que aparece arriba en esta página. Seguir usando la app
+después de un cambio significa que lo aceptas.</p>
+
+<h2>9. Exención de garantías y limitación de responsabilidad</h2>
+<p>La app se ofrece «tal cual» y «según disponibilidad», sin garantías de ningún tipo, en la máxima
+medida permitida por la ley. No garantizamos que la app funcione sin interrupciones ni errores, ni
+que las alarmas se entreguen siempre.</p>
+<p>En la máxima medida permitida por la ley, nuestra responsabilidad total derivada de tu uso de la
+app se limita al importe que nos hayas pagado por ella en los doce meses anteriores a la
+reclamación.</p>
+<p>Nada en estos términos limita la responsabilidad que no pueda limitarse por ley, incluida la
+responsabilidad por muerte o daños personales causados por negligencia.</p>
+
+<h2>10. Contacto</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Inicio</a>
+  <a href="privacy.html">Política de Privacidad</a>
+</footer>
+
+</section>
+
+<!-- DEUTSCH -->
+<section class="i18n" lang="de" data-title="Nutzungsbedingungen — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Nutzungsbedingungen</h1>
+  <p class="date">Letzte Aktualisierung: 25. August 2026</p>
+</header>
+
+<h2>1. Vereinbarung</h2>
+<p>Diese Bedingungen regeln deine Nutzung der iOS-App <strong>Ryzup</strong>, bereitgestellt von
+Mirzabek Sadullaev („wir“, „uns“). Mit dem Herunterladen oder Nutzen der App akzeptierst du sie.
+Wenn du sie nicht akzeptierst, nutze die App bitte nicht.</p>
+<p>Für deine Nutzung gilt zusätzlich Apples
+<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Standard-Lizenzvertrag
+für Endbenutzer</a>.</p>
+
+<h2>2. Was die App macht</h2>
+<p>Ryzup ist ein Wecker, der von dir verlangt, eine Aufgabe zu erledigen — eine Rechnung zu lösen,
+sich zu bewegen oder eine Übung vor der Kamera auszuführen —, bevor der Alarm aufhört.</p>
+
+<div class="callout">
+  <h2>3. Verlass dich nicht allein auf diese App</h2>
+  <p>Das ist die wichtigste Bestimmung hier, deshalb steht sie nicht im Kleingedruckten.</p>
+  <p>Ryzup plant Wecker über iOS. Ob ein Wecker tatsächlich klingelt, hängt von deinem Gerät und von
+  Apples Software ab: Akkustand, Speicherplatz, Fokus- und „Nicht stören“-Einstellungen,
+  Systemupdates, das erzwungene Beenden der App und Fehler in iOS selbst liegen alle außerhalb
+  unserer Kontrolle. Keine Wecker-App von Drittanbietern kann die Auslieferung garantieren.</p>
+  <p><strong>Wenn ein verschlafener Termin schwerwiegende Folgen hätte — ein Flug, eine Prüfung, ein
+  Arzttermin, eine Arbeitsschicht —, stelle einen zweiten Wecker mit der vorinstallierten
+  Uhr-App deines Geräts oder mit einem separaten physischen Wecker.</strong></p>
+  <p>Wir sind nicht verantwortlich für Folgen eines Weckers, der nicht geklingelt hat, zu spät
+  geklingelt hat oder ausgeschaltet wurde.</p>
+</div>
+
+<div class="callout">
+  <h2>4. Trainiere sicher</h2>
+  <p>Die Fitness-Aufgaben verlangen Push-ups, Sit-ups, Kniebeugen oder Hampelmänner — oft nur
+  Augenblicke nach dem Aufwachen.</p>
+  <ul>
+    <li>Die Teilnahme erfolgt auf eigenes Risiko.</li>
+    <li>Wenn du eine Verletzung oder eine Erkrankung hast oder schwanger bist, sprich mit einer
+    Ärztin oder einem Arzt, bevor du diese Aufgaben wählst.</li>
+    <li>Höre sofort auf, wenn du Schmerzen, Schwindel oder Atemnot verspürst.</li>
+    <li>Achte darauf, dass du freien Platz um dich hast und sicher stehst.</li>
+    <li>Die App zählt Wiederholungen. Sie prüft nicht deine Ausführung und ist weder Trainer noch
+    Medizinprodukt.</li>
+  </ul>
+  <p>Jede Aufgabe lässt sich verlassen, ohne sie abzuschließen — siehe Abschnitt 6.</p>
+</div>
+
+<h2>5. Kostenlose Nutzung und Abonnement</h2>
+<p>Ein funktionierender Wecker und eine Reihe von Aufgaben sind kostenlos, ohne zeitliche
+Begrenzung und ohne Werbung.</p>
+<p>Ein Abonnement („PRO“) schaltet weitere Aufgaben, den Sonnenaufgangs-Wecker, den schweren
+Schwierigkeitsgrad, den vollständigen Aufwach-Verlauf mit Export sowie
+Schlafenszeit-Erinnerungen frei.</p>
+
+<table>
+  <tr><th>Tarif</th><th>Preis</th><th>Angebot</th></tr>
+  <tr><td>Jährlich</td><td>24,99 US$ pro Jahr</td><td>7 Tage kostenlos testen</td></tr>
+  <tr><td>Monatlich</td><td>4,99 US$ pro Monat</td><td>—</td></tr>
+</table>
+
+<p>Die in der App angezeigten Preise gelten für dein Land und können von den obigen Zahlen
+abweichen. Maßgeblich ist der Preis im App Store zum Zeitpunkt des Kaufs.</p>
+
+<h3>Automatische Verlängerung</h3>
+<ul>
+  <li>Die Zahlung wird bei Kaufbestätigung über deine Apple-ID abgebucht.</li>
+  <li>Das Abonnement verlängert sich automatisch, sofern es nicht mindestens 24 Stunden vor Ende des
+  laufenden Zeitraums gekündigt wird.</li>
+  <li>Die Verlängerung wird innerhalb von 24 Stunden vor Ende des laufenden Zeitraums zum Preis des
+  von dir gewählten Tarifs abgebucht.</li>
+  <li>Wenn du den kostenlosen Testzeitraum nutzt, verfällt ein nicht verbrauchter Teil davon beim
+  Kauf eines Abonnements.</li>
+</ul>
+
+<h3>Verwalten und kündigen</h3>
+<p>Verwalte oder kündige jederzeit unter <em>Einstellungen → dein Name → Abonnements</em> auf deinem
+Gerät oder unter
+<a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>.
+Das Löschen der App kündigt kein Abonnement.</p>
+
+<h3>Rückerstattungen</h3>
+<p>Käufe werden von Apple abgewickelt, Rückerstattungen werden daher bei Apple unter
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> beantragt. Wir können
+Rückerstattungen für App-Store-Käufe nicht selbst vornehmen.</p>
+
+<h3>Kauf wiederherstellen</h3>
+<p>Da die App kein Konto hat, wird ein bestehendes Abonnement über deine Apple-ID mit
+<strong>Käufe wiederherstellen</strong> in den Einstellungen der App wiederhergestellt.</p>
+
+<h2>6. Du kannst den Wecker immer ausschalten</h2>
+<p>Von Grund auf gilt: Kein Kauf, kein fehlender Sensor und keine fehlgeschlagene Erkennung kann
+dich mit einem Wecker zurücklassen, den du nicht stoppen kannst. Wenn eine Aufgabe nicht
+abgeschlossen werden kann, bietet die App Hilfe an und nach kurzer Verzögerung eine bedingungslose
+Möglichkeit, den Wecker auszuschalten.</p>
+
+<h2>7. Zulässige Nutzung</h2>
+<p>Du verpflichtest dich, die App nicht zurückzuentwickeln, zu dekompilieren oder zu verändern,
+nicht zu versuchen, die Bezahlung kostenpflichtiger Funktionen zu umgehen, und die App nicht auf
+rechtswidrige Weise zu nutzen.</p>
+
+<h2>8. Änderungen der App und dieser Bedingungen</h2>
+<p>Wir können Funktionen hinzufügen, ändern oder entfernen und diese Bedingungen aktualisieren.
+Wesentliche Änderungen werden durch das Datum oben auf dieser Seite erkennbar. Wenn du die App nach
+einer Änderung weiter nutzt, akzeptierst du sie.</p>
+
+<h2>9. Haftungsausschluss und Haftungsbeschränkung</h2>
+<p>Die App wird „wie besehen“ und „wie verfügbar“ bereitgestellt, ohne Gewährleistungen jeder Art,
+soweit gesetzlich zulässig. Wir gewährleisten nicht, dass die App unterbrechungs- und fehlerfrei
+läuft oder dass Wecker immer ausgeliefert werden.</p>
+<p>Soweit gesetzlich zulässig, ist unsere Gesamthaftung aus deiner Nutzung der App auf den Betrag
+begrenzt, den du uns dafür in den zwölf Monaten vor dem Anspruch gezahlt hast.</p>
+<p>Diese Bedingungen beschränken keine Haftung, die gesetzlich nicht beschränkt werden kann,
+einschließlich der Haftung für Tod oder Körperverletzung durch Fahrlässigkeit.</p>
+
+<h2>10. Kontakt</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Startseite</a>
+  <a href="privacy.html">Datenschutzerklärung</a>
+</footer>
+
+</section>
+
+<!-- FRANÇAIS -->
+<section class="i18n" lang="fr" data-title="Conditions d'utilisation — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Conditions d'utilisation</h1>
+  <p class="date">Dernière mise à jour : 25 août 2026</p>
+</header>
+
+<h2>1. Accord</h2>
+<p>Ces conditions régissent votre utilisation de l'application iOS <strong>Ryzup</strong>, fournie
+par Mirzabek Sadullaev (« nous »). En téléchargeant ou en utilisant l'application, vous les
+acceptez. Si vous ne les acceptez pas, merci de ne pas utiliser l'application.</p>
+<p>Votre utilisation est également soumise au
+<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">contrat de licence
+utilisateur final standard</a> d'Apple.</p>
+
+<h2>2. Ce que fait l'application</h2>
+<p>Ryzup est un réveil qui vous demande d'accomplir une tâche — résoudre un calcul, bouger ou faire
+un exercice devant la caméra — avant que la sonnerie s'arrête.</p>
+
+<div class="callout">
+  <h2>3. Ne comptez pas uniquement sur cette application</h2>
+  <p>C'est la clause la plus importante de cette page, elle n'est donc pas reléguée à la fin.</p>
+  <p>Ryzup programme les réveils via iOS. Qu'un réveil sonne effectivement dépend de votre appareil
+  et des logiciels d'Apple : niveau de batterie, espace de stockage, réglages Concentration et Ne pas
+  déranger, mises à jour du système, fermeture forcée de l'application et bugs d'iOS lui-même sont
+  tous hors de notre contrôle. Aucune application de réveil tierce ne peut garantir le
+  déclenchement.</p>
+  <p><strong>Si manquer un réveil pouvait avoir de graves conséquences — un vol, un examen, un
+  rendez-vous médical, une prise de poste —, réglez un second réveil avec l'app Horloge intégrée à
+  votre appareil ou avec un réveil physique séparé.</strong></p>
+  <p>Nous ne sommes pas responsables des conséquences d'un réveil qui n'a pas sonné, a sonné en
+  retard ou a été désactivé.</p>
+</div>
+
+<div class="callout">
+  <h2>4. Faites de l'exercice en sécurité</h2>
+  <p>Les missions sportives vous demandent de faire des pompes, des abdominaux, des squats ou des
+  jumping jacks, souvent quelques instants seulement après le réveil.</p>
+  <ul>
+    <li>Vous y participez à vos propres risques.</li>
+    <li>Si vous avez une blessure, une pathologie, ou si vous êtes enceinte, parlez-en à un médecin
+    avant de choisir ces missions.</li>
+    <li>Arrêtez immédiatement en cas de douleur, de vertige ou d'essoufflement.</li>
+    <li>Assurez-vous d'avoir de l'espace dégagé autour de vous et un appui stable.</li>
+    <li>L'application compte les répétitions. Elle ne vérifie pas votre posture et n'est ni un coach
+    ni un dispositif médical.</li>
+  </ul>
+  <p>Toute mission peut être quittée sans être terminée — voir la section 6.</p>
+</div>
+
+<h2>5. Utilisation gratuite et abonnement</h2>
+<p>Un réveil fonctionnel et un ensemble de missions sont gratuits, sans limite de durée et sans
+publicité.</p>
+<p>Un abonnement (« PRO ») débloque des missions supplémentaires, le réveil lever de soleil, le
+niveau de difficulté élevé, l'historique complet des réveils avec export, et les rappels d'heure de
+coucher.</p>
+
+<table>
+  <tr><th>Formule</th><th>Prix</th><th>Offre</th></tr>
+  <tr><td>Annuelle</td><td>24,99 US$ par an</td><td>7 jours d'essai gratuit</td></tr>
+  <tr><td>Mensuelle</td><td>4,99 US$ par mois</td><td>—</td></tr>
+</table>
+
+<p>Les prix affichés dans l'application s'appliquent à votre pays et peuvent différer des montants
+ci-dessus. C'est le prix indiqué sur l'App Store au moment de l'achat qui s'applique.</p>
+
+<h3>Renouvellement automatique</h3>
+<ul>
+  <li>Le paiement est débité de votre identifiant Apple à la confirmation de l'achat.</li>
+  <li>L'abonnement se renouvelle automatiquement, sauf résiliation au moins 24 heures avant la fin de
+  la période en cours.</li>
+  <li>Le renouvellement est débité dans les 24 heures précédant la fin de la période en cours, au
+  tarif de la formule choisie.</li>
+  <li>Si vous utilisez l'essai gratuit, toute partie non utilisée est perdue lors de l'achat d'un
+  abonnement.</li>
+</ul>
+
+<h3>Gérer et résilier</h3>
+<p>Gérez ou résiliez à tout moment dans <em>Réglages → votre nom → Abonnements</em> sur votre
+appareil, ou sur
+<a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>.
+Supprimer l'application ne résilie pas l'abonnement.</p>
+
+<h3>Remboursements</h3>
+<p>Les achats sont gérés par Apple : les remboursements se demandent donc à Apple sur
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Nous ne pouvons pas
+rembourser nous-mêmes les achats effectués sur l'App Store.</p>
+
+<h3>Restaurer un achat</h3>
+<p>Comme l'application n'a pas de compte, un abonnement existant est restauré via votre identifiant
+Apple avec <strong>Restaurer les achats</strong> dans les réglages de l'application.</p>
+
+<h2>6. Vous pouvez toujours arrêter le réveil</h2>
+<p>Par conception, aucun achat, capteur manquant ou échec de détection ne peut vous laisser face à un
+réveil impossible à arrêter. Si une mission ne peut pas être terminée, l'application propose une aide
+puis, après un court délai, un moyen inconditionnel d'arrêter le réveil.</p>
+
+<h2>7. Utilisation acceptable</h2>
+<p>Vous vous engagez à ne pas désosser, décompiler ou modifier l'application, à ne pas tenter de
+contourner le paiement des fonctions payantes, et à ne pas utiliser l'application de manière
+illicite.</p>
+
+<h2>8. Modifications de l'application et des présentes conditions</h2>
+<p>Nous pouvons ajouter, modifier ou retirer des fonctionnalités, et mettre à jour ces conditions.
+Les modifications importantes seront signalées par la date en haut de cette page. Continuer à
+utiliser l'application après une modification vaut acceptation.</p>
+
+<h2>9. Exclusion de garantie et limitation de responsabilité</h2>
+<p>L'application est fournie « en l'état » et « selon disponibilité », sans garantie d'aucune sorte,
+dans toute la mesure permise par la loi. Nous ne garantissons pas que l'application fonctionnera sans
+interruption ni erreur, ni que les réveils seront toujours délivrés.</p>
+<p>Dans toute la mesure permise par la loi, notre responsabilité totale découlant de votre
+utilisation de l'application est limitée au montant que vous nous avez versé pour celle-ci au cours
+des douze mois précédant la réclamation.</p>
+<p>Rien dans ces conditions ne limite une responsabilité qui ne peut être limitée par la loi, y
+compris la responsabilité en cas de décès ou de dommage corporel causé par une négligence.</p>
+
+<h2>10. Contact</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Accueil</a>
+  <a href="privacy.html">Politique de confidentialité</a>
+</footer>
+
+</section>
+
+<!-- PORTUGUÊS -->
+<section class="i18n" lang="pt" data-title="Termos de Uso — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>Termos de Uso</h1>
+  <p class="date">Última atualização: 25 de agosto de 2026</p>
+</header>
+
+<h2>1. Acordo</h2>
+<p>Estes termos regem o seu uso do app para iOS <strong>Ryzup</strong>, fornecido por
+Mirzabek Sadullaev ("nós"). Ao baixar ou usar o app, você os aceita. Se não os aceitar, por favor
+não use o app.</p>
+<p>O seu uso também está sujeito ao
+<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Contrato de Licença de
+Usuário Final padrão</a> da Apple.</p>
+
+<h2>2. O que o app faz</h2>
+<p>O Ryzup é um despertador que exige que você conclua uma tarefa — resolver uma conta, se mover ou
+fazer um exercício em frente à câmera — antes que o alarme pare.</p>
+
+<div class="callout">
+  <h2>3. Não dependa apenas deste app</h2>
+  <p>Esta é a cláusula mais importante desta página, por isso ela não está escondida no fim.</p>
+  <p>O Ryzup agenda alarmes através do iOS. Se um alarme realmente toca depende do seu dispositivo e
+  do software da Apple: nível de bateria, armazenamento, ajustes de Foco e Não Perturbe,
+  atualizações do sistema, o encerramento forçado do app e falhas do próprio iOS estão todos fora do
+  nosso controle. Nenhum app de despertador de terceiros pode garantir a entrega.</p>
+  <p><strong>Se perder a hora tivesse consequências sérias — um voo, uma prova, uma consulta médica,
+  um turno de trabalho —, coloque um segundo alarme no app Relógio integrado do seu dispositivo ou
+  em um despertador físico separado.</strong></p>
+  <p>Não somos responsáveis por nada que decorra de um alarme que não tocou, tocou atrasado ou foi
+  descartado.</p>
+</div>
+
+<div class="callout">
+  <h2>4. Exercite-se com segurança</h2>
+  <p>As missões de exercício pedem que você faça flexões, abdominais, agachamentos ou polichinelos,
+  muitas vezes poucos instantes depois de acordar.</p>
+  <ul>
+    <li>Você participa por sua própria conta e risco.</li>
+    <li>Se tiver qualquer lesão, condição médica, ou se estiver grávida, fale com um médico antes de
+    escolher essas missões.</li>
+    <li>Pare imediatamente se sentir dor, tontura ou falta de ar.</li>
+    <li>Garanta que há espaço livre ao seu redor e apoio firme para os pés.</li>
+    <li>O app conta repetições. Ele não avalia a sua execução e não é um treinador nem um
+    dispositivo médico.</li>
+  </ul>
+  <p>É possível sair de qualquer missão sem concluí-la — veja a seção 6.</p>
+</div>
+
+<h2>5. Uso gratuito e assinatura</h2>
+<p>Um despertador funcional e um conjunto de missões são gratuitos, sem limite de tempo e sem
+publicidade.</p>
+<p>A assinatura ("PRO") libera missões adicionais, o alarme nascer do sol, o nível de dificuldade
+difícil, o histórico completo de despertares com exportação e os lembretes de hora de dormir.</p>
+
+<table>
+  <tr><th>Plano</th><th>Preço</th><th>Oferta</th></tr>
+  <tr><td>Anual</td><td>US$ 24,99 por ano</td><td>7 dias de teste grátis</td></tr>
+  <tr><td>Mensal</td><td>US$ 4,99 por mês</td><td>—</td></tr>
+</table>
+
+<p>Os preços exibidos no app se aplicam ao seu país e podem diferir dos valores acima. Vale o preço
+que estiver na App Store no momento da compra.</p>
+
+<h3>Renovação automática</h3>
+<ul>
+  <li>O pagamento é cobrado do seu ID Apple na confirmação da compra.</li>
+  <li>A assinatura é renovada automaticamente, a menos que seja cancelada pelo menos 24 horas antes
+  do fim do período atual.</li>
+  <li>A renovação é cobrada nas 24 horas anteriores ao fim do período atual, pelo valor do plano que
+  você escolheu.</li>
+  <li>Se você usar o teste grátis, qualquer parte não utilizada é perdida ao comprar uma
+  assinatura.</li>
+</ul>
+
+<h3>Gerenciar e cancelar</h3>
+<p>Gerencie ou cancele a qualquer momento em <em>Ajustes → seu nome → Assinaturas</em> no seu
+dispositivo, ou em
+<a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>.
+Excluir o app não cancela a assinatura.</p>
+
+<h3>Reembolsos</h3>
+<p>As compras são processadas pela Apple, então os reembolsos são solicitados à Apple em
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>. Não podemos emitir
+reembolsos de compras da App Store por conta própria.</p>
+
+<h3>Restaurar uma compra</h3>
+<p>Como o app não tem conta, uma assinatura existente é restaurada pelo seu ID Apple usando
+<strong>Restaurar compras</strong> nas configurações do app.</p>
+
+<h2>6. Você sempre pode desligar o alarme</h2>
+<p>Por projeto, nenhuma compra, sensor ausente ou detecção falha pode deixar você preso a um alarme
+que não consegue parar. Se uma missão não puder ser concluída, o app oferece ajuda e, após uma breve
+espera, uma forma incondicional de desligar o alarme.</p>
+
+<h2>7. Uso aceitável</h2>
+<p>Você concorda em não fazer engenharia reversa, descompilar ou modificar o app, não tentar burlar o
+pagamento de recursos pagos e não usar o app de qualquer forma ilegal.</p>
+
+<h2>8. Alterações no app e nestes termos</h2>
+<p>Podemos adicionar, alterar ou remover recursos e podemos atualizar estes termos. Alterações
+relevantes serão refletidas pela data no topo desta página. Continuar a usar o app após uma
+alteração significa que você a aceita.</p>
+
+<h2>9. Isenção de garantias e limitação de responsabilidade</h2>
+<p>O app é fornecido "no estado em que se encontra" e "conforme disponível", sem garantias de
+qualquer tipo, na máxima extensão permitida pela lei. Não garantimos que o app funcionará sem
+interrupções ou erros, nem que os alarmes serão sempre entregues.</p>
+<p>Na máxima extensão permitida pela lei, a nossa responsabilidade total decorrente do seu uso do app
+limita-se ao valor que você nos pagou por ele nos doze meses anteriores à reclamação.</p>
+<p>Nada nestes termos limita responsabilidade que não possa ser limitada por lei, incluindo a
+responsabilidade por morte ou dano pessoal causado por negligência.</p>
+
+<h2>10. Contato</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">Início</a>
+  <a href="privacy.html">Política de Privacidade</a>
+</footer>
+
+</section>
+
+<!-- 日本語 -->
+<section class="i18n" lang="ja" data-title="利用規約 — Ryzup">
+
+<header>
+  <div class="eyebrow">Ryzup</div>
+  <h1>利用規約</h1>
+  <p class="date">最終更新日: 2026年8月25日</p>
+</header>
+
+<h2>1. 同意</h2>
+<p>本規約は、Mirzabek Sadullaev（以下「当方」）が提供する iOS アプリ <strong>Ryzup</strong>
+のご利用に適用されます。アプリをダウンロードまたは使用することで、本規約に同意したものとみなされます。
+同意されない場合は、本アプリをご利用にならないでください。</p>
+<p>ご利用にあたっては、Apple の
+<a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">標準エンドユーザー
+使用許諾契約</a>も適用されます。</p>
+
+<h2>2. アプリの機能</h2>
+<p>Ryzup は、計算を解く、体を動かす、カメラの前で運動をするといった課題を完了しなければアラームが
+止まらない目覚まし時計です。</p>
+
+<div class="callout">
+  <h2>3. 本アプリだけに頼らないでください</h2>
+  <p>これは本ページで最も重要な条項なので、目立たない場所には置いていません。</p>
+  <p>Ryzup は iOS の仕組みを通じてアラームをスケジュールします。アラームが実際に鳴るかどうかは、
+  お使いの端末と Apple のソフトウェアに依存します。バッテリー残量、ストレージ容量、集中モードや
+  おやすみモードの設定、システムアップデート、アプリの強制終了、そして iOS
+  自体の不具合は、いずれも当方の管理の及ばない範囲です。サードパーティ製のアラームアプリが
+  通知の確実な配信を保証することはできません。</p>
+  <p><strong>寝過ごすと重大な結果を招く場合（飛行機、試験、通院、勤務シフトなど）は、端末標準の
+  「時計」アプリや別の物理的な目覚まし時計で二つ目のアラームを設定してください。</strong></p>
+  <p>アラームが鳴らなかった、鳴るのが遅れた、または解除されたことに起因する事柄について、当方は
+  責任を負いません。</p>
+</div>
+
+<div class="callout">
+  <h2>4. 安全に運動してください</h2>
+  <p>フィットネスミッションは、腕立て伏せ、腹筋、スクワット、ジャンピングジャックを求めます。
+  多くの場合、目覚めた直後です。</p>
+  <ul>
+    <li>参加はご自身の責任で行ってください。</li>
+    <li>けがや疾患がある場合、または妊娠中の場合は、これらのミッションを選ぶ前に医師にご相談
+    ください。</li>
+    <li>痛み、めまい、息苦しさを感じたら直ちに中止してください。</li>
+    <li>周囲に十分なスペースがあり、足元が安定していることを確認してください。</li>
+    <li>アプリは回数を数えるだけです。フォームの正しさは判定せず、トレーナーでも医療機器でも
+    ありません。</li>
+  </ul>
+  <p>どのミッションも完了せずに終了できます。第 6 項をご覧ください。</p>
+</div>
+
+<h2>5. 無料での利用とサブスクリプション</h2>
+<p>実用的なアラームと一連のミッションは無料で、期間の制限も広告もありません。</p>
+<p>サブスクリプション（「PRO」）では、追加のミッション、日の出アラーム、難易度「ハード」、
+書き出し付きの全期間の起床履歴、就寝リマインダーが利用できます。</p>
+
+<table>
+  <tr><th>プラン</th><th>価格</th><th>特典</th></tr>
+  <tr><td>年額</td><td>24.99 米ドル／年</td><td>7 日間の無料トライアル</td></tr>
+  <tr><td>月額</td><td>4.99 米ドル／月</td><td>—</td></tr>
+</table>
+
+<p>アプリ内に表示される価格はお客様の国に適用されるもので、上記の金額と異なる場合があります。
+購入時点で App Store に表示されている価格が適用されます。</p>
+
+<h3>自動更新</h3>
+<ul>
+  <li>購入の確定時に、お客様の Apple ID に対して課金されます。</li>
+  <li>現在の期間の終了の少なくとも 24 時間前に解約しない限り、サブスクリプションは自動的に
+  更新されます。</li>
+  <li>更新の課金は、現在の期間終了前の 24 時間以内に、お選びのプランの料金で行われます。</li>
+  <li>無料トライアルをご利用の場合、サブスクリプションを購入した時点で未使用分は失効します。</li>
+</ul>
+
+<h3>管理と解約</h3>
+<p>管理・解約はいつでも、端末の <em>設定 → お客様のお名前 → サブスクリプション</em> または
+<a href="https://apps.apple.com/account/subscriptions">apps.apple.com/account/subscriptions</a>
+から行えます。アプリを削除してもサブスクリプションは解約されません。</p>
+
+<h3>払い戻し</h3>
+<p>購入は Apple が処理するため、払い戻しは
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a> から Apple
+に申請します。App Store での購入について、当方が払い戻しを行うことはできません。</p>
+
+<h3>購入の復元</h3>
+<p>本アプリにはアカウントがないため、既存のサブスクリプションは、アプリの設定にある
+<strong>購入を復元</strong>から、お客様の Apple ID を通じて復元されます。</p>
+
+<h2>6. アラームはいつでも止められます</h2>
+<p>設計上、購入の有無、センサーの不在、検出の失敗などによって、止められないアラームに
+閉じ込められることはありません。ミッションを完了できない場合、アプリは補助を提示し、短い待機の後に
+無条件でアラームを止める手段を用意します。</p>
+
+<h2>7. 許容される利用</h2>
+<p>お客様は、本アプリのリバースエンジニアリング、逆コンパイル、改変を行わないこと、有料機能の
+支払いを回避しようとしないこと、および違法な方法で本アプリを利用しないことに同意します。</p>
+
+<h2>8. アプリおよび本規約の変更</h2>
+<p>当方は機能の追加・変更・削除を行うことがあり、本規約を更新することがあります。重要な変更は、
+本ページ冒頭の日付に反映されます。変更後もアプリを使い続けることは、その変更に同意したことを
+意味します。</p>
+
+<h2>9. 免責および責任の制限</h2>
+<p>本アプリは、法律で認められる最大限の範囲において、いかなる保証もなく「現状のまま」「提供可能な
+状態で」提供されます。当方は、本アプリが中断なく、または不具合なく動作すること、およびアラームが
+常に配信されることを保証しません。</p>
+<p>法律で認められる最大限の範囲において、お客様の本アプリの利用に起因する当方の責任の総額は、
+請求前の 12 か月間にお客様が本アプリについて当方に支払った金額を上限とします。</p>
+<p>本規約のいかなる規定も、過失による死亡または人身傷害に対する責任を含め、法律上制限できない
+責任を制限するものではありません。</p>
+
+<h2>10. お問い合わせ</h2>
+<p>Mirzabek Sadullaev<br>
+<a href="mailto:mirzabeksmrm77@gmail.com">mirzabeksmrm77@gmail.com</a></p>
+
+<footer>
+  <a href="index.html">ホーム</a>
+  <a href="privacy.html">プライバシーポリシー</a>
+</footer>
+
+</section>
+
+<script src="assets/i18n.js"></script>
 </div>
 </body>
 </html>

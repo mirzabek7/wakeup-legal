@@ -59,11 +59,11 @@ body {
 
 header { padding: 38px 0 12px; }
 .mark {
-  width: 68px; height: 68px; border-radius: 20px;
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  display: grid; place-items: center; margin-bottom: 22px;
+  display: block; border-radius: 22.4%;
+  box-shadow: 0 0 0 1px var(--line), 0 2px 8px rgba(30, 27, 46, .08);
 }
-.mark svg { width: 38px; height: 38px; }
+.mark.lg { width: 76px; height: 76px; }
+.mark.sm { width: 36px; height: 36px; }
 .eyebrow {
   font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
   background: linear-gradient(90deg, var(--accent), var(--accent2));
@@ -118,6 +118,6 @@ footer {
 }
 footer a { margin-right: 16px; }
 
-/* Index page: logo sits above the per-language blocks */
-.brand { padding: 26px 0 0; }
+/* The logo is language-independent, so it sits above the per-language blocks */
+.brand { padding: 26px 0 18px; display: flex; align-items: center; gap: 12px; }
 .brand ~ .i18n header { padding-top: 0; }

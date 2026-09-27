@@ -1,9 +1,9 @@
-/* Ryzup legal pages — language selection.
+/* Mornee legal pages — language selection.
    Order of preference: ?lang= → #hash → saved choice → browser languages → English. */
 (function () {
   var SUPPORTED = ['en', 'ru', 'es', 'de', 'fr', 'pt', 'ja'];
   var FALLBACK = 'en';
-  var STORAGE_KEY = 'ryzup-legal-lang';
+  var STORAGE_KEY = 'mornee-legal-lang';
 
   function normalise(tag) {
     if (!tag) return null;

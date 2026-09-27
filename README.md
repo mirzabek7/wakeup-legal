@@ -1,6 +1,6 @@
-# Ryzup — legal pages
+# Mornee — legal pages
 
-Privacy Policy and Terms of Use for the Ryzup iOS app, published as a static site through
+Privacy Policy and Terms of Use for the Mornee iOS app, published as a static site through
 GitHub Pages. Kept in its own repository because GitHub Pages needs a **public** repo on the free
 plan, while the app's source stays private.
 
@@ -18,6 +18,29 @@ The terms deliberately do not name a country whose law applies. Leaving it out i
 choice: for consumer contracts a court usually applies the buyer's own national law regardless
 of what the terms say, so the clause rarely changes the outcome for a small app. It can be added
 later if a lawyer advises it.
+
+## Logo
+
+`assets/logo.png`, `assets/apple-touch-icon.png` and `assets/favicon.png` are downscales of the
+app icon at `wake_up_app/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png`. If the
+icon changes in the app, regenerate them from the same source:
+
+```bash
+python3 - <<'EOF'
+from PIL import Image
+src = Image.open('.../AppIcon.appiconset/AppIcon-1024.png').convert('RGB')
+for name, size in [('assets/logo.png', 320), ('assets/apple-touch-icon.png', 180),
+                   ('assets/favicon.png', 64)]:
+    src.resize((size, size), Image.LANCZOS).save(name, optimize=True)
+EOF
+```
+
+The icon carries its own pale background, so the pages show it as a rounded tile with a hairline
+ring — without the ring it would disappear into the white page in light mode.
+
+The accent colours on these pages are still coral `#FF7A93` → grape `#A56EFF`, which is the ramp
+the app's own UI uses (`Sources/Core/Theme.swift`). They were not changed to the icon's sunrise
+orange `#FD6F40`, so the pages match the app's screens rather than just its icon.
 
 ## Languages
 
@@ -94,8 +117,13 @@ Open all three in a browser before using them anywhere. A link that 404s is wors
 
 ## Where the links go
 
-**In the app.** `Sources/Features/Paywall/PaywallView.swift` currently points at
-`team13.example.com`, which does not exist. Both URLs need replacing with the real ones.
+**In the app.** `Sources/Core/LegalLinks.swift` already points at the live pages:
+
+```swift
+static let home    = "https://mirzabek7.github.io/wakeup-legal/"
+static let privacy = "https://mirzabek7.github.io/wakeup-legal/privacy.html"
+static let terms   = "https://mirzabek7.github.io/wakeup-legal/terms.html"
+```
 
 **In App Store Connect.** Under the app's information:
 

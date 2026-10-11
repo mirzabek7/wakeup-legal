@@ -135,7 +135,7 @@ Apple checks that these load. A placeholder or a dead link is a straightforward 
 ## Keeping them honest
 
 These pages describe what the app actually does today: no account, on-device pose detection,
-Firebase analytics, RevenueCat for purchase state. If any of that changes — a login is added,
+Amplitude analytics, RevenueCat for purchase state. If any of that changes — a login is added,
 data starts leaving the device, a new SDK arrives — the pages have to change with it, and the
 date at the top of each one updated.
 
